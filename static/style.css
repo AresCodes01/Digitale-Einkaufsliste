@@ -1,0 +1,249 @@
+:root {
+    --font-size: 1.25rem;
+}
+
+.card {
+    margin: 1.5%;
+    margin-bottom: 0%;
+    width: 47%;
+}
+
+.card:hover {
+    filter: brightness(92%);
+}
+
+.card1 {
+    float: left;
+}
+
+.card0 {
+    float: right;
+}
+
+/* .listRow {
+    overflow: hidden;
+} */
+
+#listContainer {
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+
+.addListButton {
+    margin: 2%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: var(--font-size)!important;
+}
+
+.form-check-input {
+    margin-right: 0.4em;
+}
+
+#profileButton {
+    float: right;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+
+.buttonsDiv {
+    display: flex;
+    float: right;
+}
+
+.buttonsDiv > button {
+    margin: 4;
+}
+
+.modal-footer {
+    justify-content: space-between;
+}
+
+.add-modal-footer {
+    justify-content: flex-end;
+}
+
+.deleteItem {
+    float: right;
+    background-size: 8px 8px;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0;
+}
+
+.itemOuter {
+    display: flex;
+    margin: 1.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-control[type="number"] {
+    width: 1%!important;
+}
+
+.amount, .unit, .itemInputText {
+    width: 10%;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border: var(--bs-border-width) solid var(--bs-border-color);
+}
+
+.itemInputText {
+    width: auto;
+}
+
+select:last-child {
+    border-radius: var(--bs-border-radius-sm);
+}
+
+.form-switch {
+    margin-left: 0.8em;
+}
+
+.newItemInputGroup {
+    margin-bottom: auto!important;
+}
+
+.newItemInputField {
+    font-size: inherit!important;
+}
+
+.itemOuterTemp {
+    justify-content: normal;
+}
+
+#deleteAccButton {
+    color: #dc3545;
+}
+
+.videoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    position: relative;
+    background-color: #0d6efd;
+    border-radius: 0.5rem;
+}
+
+#videoPreview {
+    width: 100%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.listModal {
+    z-index: 1051;
+}
+
+.listDialog {
+    width: 75rem!important;
+    max-width: 60%!important;
+    font-size: var(--font-size);
+}
+
+#scannerModal {
+    z-index: 1052;
+}
+
+.bi-trash-fill {
+    height: 0.7rem;
+    width: 0.75rem;
+}
+
+.bi-person-circle {
+    width: var(--font-size);
+}
+
+.btn, .dropdown-menu, .authInput {
+    font-size: calc(var(--font-size)*0.85);
+}
+
+
+
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 480px) {
+    .card {
+        width: 97%;
+        margin: 0 auto;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+    }
+
+    .card1 {
+        float: none;
+    }
+
+    .card0 {
+        float: none;
+    }
+
+    .listRow {
+        display: grid;
+    }
+
+    * {
+        --bs-body-font-size: 2rem;
+        --bs-navbar-brand-font-size: 2rem;
+    }
+
+    .form-floating>label {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        --bs-navbar-padding-y: 1.5rem;
+    }
+
+    #profileButton {
+        width: 130%;
+    }
+
+    .bi-person-circle {
+        height: 40;
+        width: 40;
+    }
+
+    .btn-lg {
+        --bs-btn-font-size: 2rem!important;
+    }
+
+    .modal {
+        --bs-modal-width: 80%;
+    }
+
+    .fs-5 {
+        font-size: 2rem!important;
+    }
+
+    .input-group-text {
+        font-size: 2rem;
+    }
+
+    .input-group-sm>.input-group-text, .input-group-sm>.btn {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        --bs-btn-font-size: 1.5rem;
+    }
+
+    .dropdown-menu {
+        --bs-dropdown-font-size: 2rem;
+    }
+
+    .form-control {
+        /* height: fit-content; */
+        height: inherit;
+    }
+
+}
