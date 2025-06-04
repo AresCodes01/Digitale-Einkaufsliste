@@ -1,6 +1,8 @@
 # Shoppinglists
 Website for managing shoppinglists
-
+# Group Work Notice
+This project was developed as part of a group assignment at the Technical University of Würzburg-Schweinfurt (THWS). Due to lost contact with some contributors, their involvement cannot be verified or credited further. The code and functionality represent the state of the exercise as completed by the team.
+#Starting
 Before starting, remember that you may need to replace the `python` command with `py` or `python3` depending on your operating sytem or installed python version
 
 ## Configuring your virtual environment
